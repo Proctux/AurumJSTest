@@ -41,6 +41,7 @@ entre o maiorLetraString1 x menorLetraString2  + maiorLetraString2 x menorLetraS
 Para os exemplos fornecidos no teste, chegou-se aos devidos resultados:
 
 function lettersSum("dacb", "gdab") =>  11
+
 function lettersSum("dcb", "gdab") =>  18
 
 
