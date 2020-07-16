@@ -4,12 +4,13 @@ This test was done by me, trying to apply for a position at Aurum Software Jurí
 # Desafio 1
 
 O desafio n° 1 consistia em elaborar uma função que recebesse dois inputs, uma string e um number (limit)
-Este deve tratar a string e o numero de vezes que um carácter sequencial repetido pode aparecer na string
+Este deve tratar a string o numero de vezes que um carácter sequencial repetido pode aparecer na string
 através do input limit.
 
 com base nisso, o resultado obtido para os exemplos sugeridos foi o seguinte:
 
 function removeRepeated("xxxyzzaaayy", 1) => "xyzay"
+
 function removeRepeated("xxxyzzaaayy", 2) => "xxyzzaayy"
 
 ![Alt text](https://i.imgur.com/bnSN6U3.jpeg)
@@ -24,7 +25,9 @@ carácter na string, ele deveria repetir o último carácter da string.
 Assim, para os exemplos fornecidos abaixo, tiveram-se os seguintes resultados:
 
 function replaceChar("x?yzza?y?", 1) => "xxyzzaayy"
+
 function replaceChar("x?yzza?y?", 2) => "xxxyzzaaayyy"
+
 function replaceChar("?x?yzza?y?", 2) => "yyxxxyzzaaayyy"
 
 ![Alt text](https://i.imgur.com/VIb58H1.jpeg)
